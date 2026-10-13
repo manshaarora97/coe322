@@ -1,0 +1,47 @@
+#include <iostream>
+#include <cmath>
+#inlcude math.h
+
+int num;
+std::cin>> num;
+int newtonMethod(); 
+
+int newtonMethod(num)
+{
+  int fx = (x*x) - 2;
+  int fx_prime = 2 * x;
+  return ( newton_ans = fx/fx_prime)
+    }
+
+
+auto newton_method2 = [] (double  n) -> {return double  (n * n - 2)/(2 *n));}
+int main() {
+  
+  auto fx = [] (double x ) -> double {
+    return x*x-2 };
+
+  auto fprimex = [] (double x) -> double {
+    return 2*x; };
+  double x = 0
+  double fx = f(x);
+
+  while( std::abs(fx)>1.e-5) {
+
+    auto  dfdx = fprime(x);
+    x = x-fx/dfdx;
+    fx = f(x); //same line twice 
+    std::println(" At x ={}, fx = {}",x, fx );
+ 
+
+  }
+
+  return 0; 
+
+
+  xroot = newton_root(f, fprime)
+    
+  double newton_root
+    (function<double(double) f,
+     function< double(double > fprime) {
+    
+

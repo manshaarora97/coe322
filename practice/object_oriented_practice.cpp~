@@ -1,0 +1,55 @@
+#include <cmath>
+//practice object oriented
+
+class Point {
+private:
+  float x,y;
+public:
+  Point(float in_x, float in_y) {
+    x = in_x; y = in_y; }; //initialize values of r and phi
+  /*storing all values independently is not a good idea becuase they are dependent on each other
+  do not store redundant data */
+  float distance_to_origin() {
+    return sqrt(x*x + y*y);
+      };
+  float angle() {
+    return std::atan(y/x); 
+  };
+  float distance(float p_x, float p_y, float q_x, float q_y) {
+    return sqrt((std::pow(p_x-q_x, 2), std::pow(p_x-p_y, 2)));
+
+  };
+
+  float distanceAns(Point q) {
+    float dx = x-q.x, dy = y-q.y;
+    return sqrt(dx*dx + dy*dy);
+
+  };
+
+  float dx(point q) {return x-q.x} 
+
+
+  float halfway(Point p, Point q) {
+    
+};
+
+class Point_new {
+private:
+  float x,y;
+
+public:
+  Point_new(float in_x, float in_y)  x(in_x), y(in_y) {
+    //constructor no return type, function w name of class 
+  }
+}
+
+
+  
+int main() {
+  Point p1(1.0, 1.0);
+  float d = p1.distance_to_origin();
+  float a = p1.angle(1.0, 1.0);
+  Point p(1.0, 2.0);
+  Point q(2.0, 3.0);
+  Point p2(2,2);
+}

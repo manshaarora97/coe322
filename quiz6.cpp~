@@ -1,0 +1,40 @@
+
+ class Rectangle {
+ private:
+   float x_size, y_size;
+     public:
+   Rectangle(Point botleft, float width, float height) : x{width}, y{height} bottomlef{bl};
+   Rectangle(Point bl, Point tr) : bottomleft{bl}, topright{tr};
+   float area() {
+     return (x_size*y_size);
+   };
+
+   float rightedge_x() {
+     return botleft_xvalue() + width;
+
+   };
+
+   float point_to_rectangle() {
+
+
+
+     s Rectangle {
+     private:
+     float x_size, y_size;
+     public:
+     Rectangle(Point botleft, float width, float height) : x{width}, y{height} bottomlef{bl};
+     Rectangle(Point bl, Point tr) : bottomleft{bl}, topright{tr};
+     float area() {
+       return (x_size*y_size);
+     };
+
+     float rightedge_x() {
+       return botleft_xvalue() + width;
+
+     };
+
+     float point_to_rectangle() {
+
+
+
+       ~
